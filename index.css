@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-background-image: url(./images/download.jpeg);
+/* background-image: url(./images/download.jpeg); */
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -19,7 +19,7 @@ background-position: center;
     align-items: center;
     position: fixed;
     padding: 20px 0;
-    background-image: url(./images/download.jpeg);
+    /* background-image: url(./images/download.jpeg); */
     background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -29,7 +29,7 @@ background-position: center;
     color: aqua;
 }
 #part nav ul{
-    background-image: url(./images/download.jpeg);
+    /* background-image: url(./images/download.jpeg); */
     display: flex;
     gap: 30px;
     list-style: none;
@@ -294,6 +294,7 @@ p {
     transition: 0.3s; */
 /* } */
 
+
 .btn1 {
     background-color: #2C3E50;
     color: white;
@@ -321,16 +322,16 @@ p {
     align-items: center;
 }
 
-h1 {
+h4 {
     display: flex;
     justify-content: center;
     align-items: center;
     
-    font-size: 30px;
-    margin-bottom: 40px;
+    font-size: 30px; 
+    margin-bottom: 40px; 
 }
 
-#plans {
+#plans  {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -376,6 +377,9 @@ button {
     cursor: pointer;
     font-size: 14px;
 }
+
+
+
 
 
 /* hover property  main function me :transition lgte hn
