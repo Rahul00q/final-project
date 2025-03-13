@@ -74,8 +74,9 @@ background-position: center;
     }
 #part .icon {
     display: flex;
-    
+   
     font-size: 30px;
+    
     
 }
 
@@ -131,21 +132,24 @@ a{
     width: 90%;
     height: 550px;
 }
-.icon a {
-    /* display: flex;
+.icon1{
+    position: absolute;
+    top: 100%;
+    left: 20%;
+}
+.icon1 a {
+     display: flex;
     justify-content: center;
     align-items: center;
-     */
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     width: 80px;
-     height: 80px;
-     background-color: #00796b;
-     border-radius: 50%;
-     color: white;
-     font-size: 32px;
-     text-decoration: none;
+
+color: white;
+font-size: 40px;
+background-color: #00796b;
+border-radius: 1px;
+border-color: teal;
+size: 50px;
+     
+     
     
 }
 
@@ -162,7 +166,7 @@ a{
     font-size: 20px;
     padding: 10px;
 }
-.Search{
+#Search .searchs{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -172,6 +176,7 @@ background-color: #00796b;
 border-radius: 1px;
 border-color: teal;
  size: 10px;
+ 
 }
 #ad{
     padding: 60px;
@@ -329,6 +334,7 @@ h4 {
     
     font-size: 30px; 
     margin-bottom: 40px; 
+    padding: 50px;
 }
 
 #plans  {
@@ -377,8 +383,47 @@ button {
     cursor: pointer;
     font-size: 14px;
 }
-
-
+.us {
+    text-align: center;
+    padding: 50px;
+}
+h6 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input, textarea {
+    width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.send {
+    background-color: #17d2c4;
+    color: white;
+}
+.map {
+    background-color: #e6fffc;
+    color: black;
+}
 
 
 
@@ -393,6 +438,117 @@ button {
 
 
 
+footer {
+    background-color: #274046;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.footer-section {
+    
+    margin: 20px;
+    min-width: 200px;
+}
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: black;
+}
+.footer-section ul {
+    list-style: none;
+
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.social-icons a {
+    margin: 0 5px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+}
+.subscribe button {
+    
+    background-color: #e65c00;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.footer-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* 
+
+
+
+
+*/
+
+
+
+
+
+@media(max-width:430px){
+    #part nav ul{
+        display: none;
+    }
+    #part .icon{
+        display: none;
+    }
+
+    #bars{
+        display: block;
+        position: absolute;
+        top: 2%;
+        right: 5%;
+        font-size: 30px;
+        z-index: 10;
+    }
+    #check:checked~#part nav ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 50px;
+        left: 30%;
+        z-index: 500;
+        background-color: brown;
+        line-height: 50px;
+    }
+    #chech:checked~#part.icon{
+        display: block;
+    }
+
+
+}
+
+
+
+@media(min-width:431px) and (max-width:768px){
+
+
+ 
+}
 
 
 
