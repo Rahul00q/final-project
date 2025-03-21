@@ -497,18 +497,6 @@ footer {
     margin-top: 20px;
     font-size: 14px;
 }
-
-/* 
-
-
-
-
-*/
-
-
-
-
-
 @media(max-width:430px){
     #part nav ul{
         display: none;
