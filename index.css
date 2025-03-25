@@ -517,19 +517,22 @@ footer {
 
     #bars {
         display: block;
+        margin-left: 10px;
+        margin-top: 10px;
     }
 
     #part nav ul {
         display: none;
         flex-direction: column;
         width: 100%;
-        background: white;
+    background-color: antiquewhite;
         position: absolute;
         top: 60px;
         left: 0;
         text-align: center;
         padding: 10px;
         gap: 30px;
+        line-height: 10px;
     }
     #part #h1 .h2{
         display: none;
@@ -544,10 +547,13 @@ footer {
             display: none;
         }
             
-    #check:checked ~ nav ul {
+    #check:checked ~#part nav ul {
         display: flex;
     }
-  
+    #check:checked~main #container{
+
+        margin-top: 270px;
+    }
     
     #container {
         flex-direction: column;
